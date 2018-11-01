@@ -1,0 +1,114 @@
+body{
+	text-align:center;
+	background:sienna;
+	background-attachment: scroll;
+	
+}
+
+.title {
+    font-family: 'Rock Salt', cursive;
+    margin: 50px;
+    color: #fff;
+    font-size: 40px;
+}
+p {
+  margin: 100px;
+}
+
+.btn{
+	position:relative;
+}
+
+#random_quote{
+	background: sandybrown;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 30px;
+    border-radius: 120px;
+    height:400px;
+}
+
+#text{
+	color: #277273;
+    font-size: 20px;
+    font-family: cursive;letter-spacing:2px;
+}
+
+#author{
+	text-align: right;
+    font-size: 15px;
+    font-family: cursive;
+    color: darkslategray;
+}
+
+ul.circle {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+
+ul.circle li {
+	display: inline;
+	margin: 0 5px;
+}
+
+.circle a.next:hover {
+	background-color:#eee;
+}
+
+.circle a.twitter:hover {
+	background-color:#eee;
+}
+
+.circle a.next:hover i{
+	color:#000;
+}
+	
+.circle a.twitter:hover i{
+	color:#33ccff;
+}
+
+.circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+}
+
+.circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.circle li a:hover i {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+.circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+a {
+ background-color: #D3D3D3;   
+}
